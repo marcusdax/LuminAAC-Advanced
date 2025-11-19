@@ -1,0 +1,42 @@
+LuminAAC-Advanced/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+├── backend/
+│   ├── __init__.py
+│   ├── main_service.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── speech_lm_processor.py
+│   │   └── multimodal_fusion.py
+│   ├── ethics/
+│   │   ├── __init__.py
+│   │   ├── privacy_framework.py
+│   │   └── federated_learning.py
+│   └── models/
+│       └── __init__.py
+├── frontend/
+│   ├── __init__.py
+│   ├── main_application.py
+│   ├── audio_therapy/
+│   │   ├── __init__.py
+│   │   ├── mood_modulation.py
+│   │   └── sound_library.py
+│   ├── user_interface/
+│   │   ├── __init__.py
+│   │   └── aac_interface.py
+│   └── caretaker_interface/
+│       ├── __init__.py
+│       └── dashboard.py
+├── examples/
+│   ├── backend_usage.py
+│   └── frontend_usage.py
+├── docs/
+│   ├── installation.md
+│   ├── api_reference.md
+│   └── user_guide.md
+└── tests/
+    ├── __init__.py
+    ├── test_backend.py
+    └── test_frontend.py

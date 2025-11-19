@@ -1,0 +1,31 @@
+{
+  "prediction_id": "uuid-string",
+  "behavioral_insights": {
+    "emotional_state": {
+      "primary_emotion": "happy",
+      "emotion_confidence": 0.76,
+      "emotional_intensity": 0.65
+    },
+    "communication_intent": {
+      "primary_intent": "request",
+      "intent_confidence": 0.82
+    },
+    "engagement_analysis": {
+      "level": "high",
+      "confidence": 0.71
+    }
+  },
+  "proactive_recommendations": [
+    {
+      "type": "emotional_support",
+      "priority": "medium",
+      "action": "Provide positive reinforcement",
+      "aac_suggestion": "Show achievement vocabulary"
+    }
+  ],
+  "confidence_metrics": {
+    "overall_confidence": 0.78,
+    "emotion_confidence": 0.76,
+    "modality_agreement": "high"
+  }
+}

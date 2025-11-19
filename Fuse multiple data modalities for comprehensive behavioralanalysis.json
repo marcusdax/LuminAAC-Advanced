@@ -1,0 +1,12 @@
+{
+  "audio_data": [0.1, -0.2, 0.15, ...],
+  "visual_data": [0.5, 0.3, 0.8, ...],
+  "behavioral_context": {
+    "hour_of_day": 14,
+    "environment": "therapy",
+    "recent_interactions": ["request", "comment"],
+    "preferences": {"preferred_communication_style": 0.8}
+  },
+  "user_id": "string",
+  "session_id": "string"
+}

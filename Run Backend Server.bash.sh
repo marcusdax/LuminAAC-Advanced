@@ -1,0 +1,2 @@
+cd ../backend
+python main_service.py

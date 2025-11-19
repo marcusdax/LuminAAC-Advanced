@@ -1,0 +1,97 @@
+Troubleshooting
+Common Issues
+Audio playback issues
+
+On Windows: Install Visual C++ Redistributable
+
+On Linux: sudo apt-get install portaudio19-dev
+
+On macOS: brew install portaudio
+
+PyTorch installation
+
+Visit pytorch.org for OS-specific instructions
+
+Use CUDA version if you have NVIDIA GPU
+
+Port already in use
+
+Change ports in configuration
+
+Kill existing processes: lsof -ti:8000 | xargs kill -9
+
+Missing dependencies
+
+Ensure all requirements are installed: pip install -r requirements.txt
+
+Restart your terminal/IDE after installation
+
+Getting Help
+Check the API Reference
+
+Review User Guide
+
+Create an issue on GitHub
+
+Contact the development team
+
+
+
+
+
+**docs/api_reference.md**
+```markdown
+# LuminAAC API Reference
+
+## Base URL
+http://localhost:8000
+
+text
+
+## Authentication
+Currently, the API uses simple user context for identification. Future versions will implement proper authentication.
+
+## Endpoints
+
+### Speech Analysis
+**POST** `/api/analyze-speech`
+
+Analyze audio data using SpeechLM approach.
+
+**Request Body:**
+```json
+{
+  "audio_data": [0.1, -0.2, 0.15, ...],
+  "sample_rate": 16000,
+  "user_context": {
+    "user_id": "string",
+    "environment": "home|therapy|school"
+  }
+}
+Response:
+
+json
+{
+  "prediction_id": "uuid-string",
+  "analysis": {
+    "semantic_content": {
+      "transcribed_text": "string",
+      "sentiment": {"polarity": 0.8, "subjectivity": 0.3},
+      "key_themes": ["request", "expression"],
+      "communication_intent": "request"
+    },
+    "paralinguistic_features": {
+      "pitch": {"mean_pitch": 120.5, "variability": 25.3},
+      "energy": {"mean_energy": 0.45, "variability": 0.12},
+      "speech_rate": {"syllables_per_second": 4.2}
+    },
+    "behavioral_insights": {
+      "emotional_state": {"primary_emotion": "happy", "confidence": 0.85},
+      "cognitive_load": "medium",
+      "engagement_level": "high"
+    }
+  },
+  "timestamp": "2024-01-01T12:00:00Z"
+}
+
+

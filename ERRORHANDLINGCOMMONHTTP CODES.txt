@@ -1,0 +1,34 @@
+Error Handling
+Common HTTP Status Codes
+200: Success
+
+400: Bad Request (invalid input)
+
+404: Not Found
+
+500: Internal Server Error
+
+Error Response Format
+json
+
+Copy
+
+Download
+{
+  "detail": "Error description",
+  "error_code": "SPECIFIC_ERROR_CODE",
+  "timestamp": "2024-01-01T12:00:00Z"
+}
+Rate Limiting
+Current version has no rate limiting. Future versions will implement appropriate limits.
+
+Data Privacy
+All audio and behavioral data is processed with:
+
+On-device processing where possible
+
+Differential privacy for model updates
+
+Anonymous user identifiers
+
+Optional data retention policies

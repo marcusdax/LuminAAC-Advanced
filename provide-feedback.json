@@ -1,0 +1,10 @@
+{
+  "prediction_id": "uuid-string",
+  "user_feedback": {
+    "accuracy_rating": 0.8,
+    "relevance_rating": 0.9,
+    "notes": "The emotion detection was accurate"
+  },
+  "corrected_label": "excited",
+  "confidence_rating": 0.95
+}

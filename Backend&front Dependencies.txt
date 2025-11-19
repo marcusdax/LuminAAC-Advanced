@@ -1,0 +1,26 @@
+Backend Dependencies
+The backend requires these key packages:
+
+fastapi: Web framework
+
+torch: Deep learning
+
+transformers: AI models
+
+librosa: Audio processing
+
+pyaudio: Audio I/O
+
+Frontend Dependencies
+The frontend requires:
+
+streamlit: Web application framework
+
+plotly: Interactive visualizations
+
+pygame: Audio playback
+
+requests: API communication
+
+Configuration
+Backend Configuration

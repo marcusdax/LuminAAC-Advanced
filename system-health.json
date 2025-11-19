@@ -1,0 +1,14 @@
+{
+  "status": "healthy",
+  "components": {
+    "speech_processor": "active",
+    "fusion_engine": "active",
+    "ethics_framework": "active"
+  },
+  "statistics": {
+    "total_predictions": 150,
+    "total_annotations": 45,
+    "active_sessions": 3
+  },
+  "timestamp": "2024-01-01T12:00:00Z"
+}

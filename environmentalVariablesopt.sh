@@ -1,0 +1,3 @@
+export LUMINAAC_API_HOST="0.0.0.0"
+export LUMINAAC_API_PORT="8000"
+export LUMINAAC_MODEL_DEVICE="cuda"
