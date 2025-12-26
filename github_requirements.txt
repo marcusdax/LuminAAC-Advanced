@@ -1,0 +1,23 @@
+# GitHub-compatible requirements file
+# Minimal dependencies for LuminAAC to work with GitHub's system
+
+# Core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+streamlit==1.28.1
+pydantic==2.5.0
+requests==2.31.0
+
+# AI/ML dependencies (compatible versions)
+torch==2.9.1
+torchaudio==2.9.1
+transformers==4.36.2
+scikit-learn==1.3.2
+scipy==1.11.4
+numpy==1.24.3
+pandas==2.1.3
+plotly==5.17.0
+joblib==1.3.2
+
+# Audio processing
+librosa==0.10.1
